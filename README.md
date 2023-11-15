@@ -6,10 +6,10 @@ This repository, named "kaggle," is dedicated to storing all my Kaggle projects.
 
 The repository is organized to maintain a clean and structured layout for each Kaggle project. Here's an overview of the main folders:
 
-- **[billionaires-data-visualization](billionaires-data-visualization.ipynb/):**
+  1) **[billionaires-data-visualization](billionaires-data-visualization.ipynb/):**
   - Overview: Brief description of the project.
   - Dataset: Storage for dataset files.
-  - Notebooks: Jupyter notebooks capturing the data exploration, analysis, and modeling.
+  - Notebooks: Jupyter notebooks capture the data exploration, analysis, and modeling.
   - Results: Output files, visualizations, and model weights.
   - README: Project-specific information, instructions, and insights.
 
