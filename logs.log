@@ -1,0 +1,335 @@
+2024-05-13 22:11:52,743:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-05-13 22:11:52,744:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-05-13 22:11:52,744:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-05-13 22:11:52,745:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-05-13 22:14:57,111:INFO:PyCaret RegressionExperiment
+2024-05-13 22:14:57,111:INFO:Logging name: reg-default-name
+2024-05-13 22:14:57,111:INFO:ML Usecase: MLUsecase.REGRESSION
+2024-05-13 22:14:57,111:INFO:version 3.3.0
+2024-05-13 22:14:57,112:INFO:Initializing setup()
+2024-05-13 22:14:57,112:INFO:self.USI: c853
+2024-05-13 22:14:57,112:INFO:self._variable_keys: {'y', 'html_param', 'seed', 'USI', 'X', 'target_param', 'transform_target_param', 'idx', 'memory', 'y_train', 'exp_id', '_ml_usecase', 'pipeline', 'gpu_param', 'y_test', 'logging_param', 'data', '_available_plots', 'n_jobs_param', 'log_plots_param', 'X_train', 'fold_groups_param', 'exp_name_log', 'fold_generator', 'gpu_n_jobs_param', 'X_test', 'fold_shuffle_param'}
+2024-05-13 22:14:57,112:INFO:Checking environment
+2024-05-13 22:14:57,112:INFO:python_version: 3.11.4
+2024-05-13 22:14:57,112:INFO:python_build: ('tags/v3.11.4:d2340ef', 'Jun  7 2023 05:45:37')
+2024-05-13 22:14:57,112:INFO:machine: AMD64
+2024-05-13 22:14:57,112:INFO:platform: Windows-10-10.0.22631-SP0
+2024-05-13 22:14:57,118:INFO:Memory: svmem(total=16952647680, available=3237863424, percent=80.9, used=13714784256, free=3237863424)
+2024-05-13 22:14:57,118:INFO:Physical Core: 4
+2024-05-13 22:14:57,118:INFO:Logical Core: 8
+2024-05-13 22:14:57,118:INFO:Checking libraries
+2024-05-13 22:14:57,118:INFO:System:
+2024-05-13 22:14:57,118:INFO:    python: 3.11.4 (tags/v3.11.4:d2340ef, Jun  7 2023, 05:45:37) [MSC v.1934 64 bit (AMD64)]
+2024-05-13 22:14:57,118:INFO:executable: c:\Users\Naveen\AppData\Local\Programs\Python\Python311\python.exe
+2024-05-13 22:14:57,118:INFO:   machine: Windows-10-10.0.22631-SP0
+2024-05-13 22:14:57,119:INFO:PyCaret required dependencies:
+2024-05-13 22:14:57,122:INFO:                 pip: 24.0
+2024-05-13 22:14:57,122:INFO:          setuptools: 69.5.1
+2024-05-13 22:14:57,122:INFO:             pycaret: 3.3.0
+2024-05-13 22:14:57,122:INFO:             IPython: 8.12.3
+2024-05-13 22:14:57,122:INFO:          ipywidgets: 8.1.2
+2024-05-13 22:14:57,122:INFO:                tqdm: 4.66.2
+2024-05-13 22:14:57,122:INFO:               numpy: 1.26.4
+2024-05-13 22:14:57,122:INFO:              pandas: 2.1.4
+2024-05-13 22:14:57,122:INFO:              jinja2: 3.1.3
+2024-05-13 22:14:57,122:INFO:               scipy: 1.11.4
+2024-05-13 22:14:57,122:INFO:              joblib: 1.4.0
+2024-05-13 22:14:57,122:INFO:             sklearn: 1.4.2
+2024-05-13 22:14:57,122:INFO:                pyod: 1.1.3
+2024-05-13 22:14:57,122:INFO:            imblearn: 0.12.2
+2024-05-13 22:14:57,122:INFO:   category_encoders: 2.6.3
+2024-05-13 22:14:57,122:INFO:            lightgbm: 4.3.0
+2024-05-13 22:14:57,122:INFO:               numba: 0.59.1
+2024-05-13 22:14:57,122:INFO:            requests: 2.31.0
+2024-05-13 22:14:57,122:INFO:          matplotlib: 3.7.5
+2024-05-13 22:14:57,122:INFO:          scikitplot: 0.3.7
+2024-05-13 22:14:57,122:INFO:         yellowbrick: 1.5
+2024-05-13 22:14:57,124:INFO:              plotly: 5.20.0
+2024-05-13 22:14:57,124:INFO:    plotly-resampler: Not installed
+2024-05-13 22:14:57,124:INFO:             kaleido: 0.2.1
+2024-05-13 22:14:57,124:INFO:           schemdraw: 0.15
+2024-05-13 22:14:57,124:INFO:         statsmodels: 0.14.1
+2024-05-13 22:14:57,124:INFO:              sktime: 0.28.0
+2024-05-13 22:14:57,124:INFO:               tbats: 1.1.3
+2024-05-13 22:14:57,124:INFO:            pmdarima: 2.0.4
+2024-05-13 22:14:57,124:INFO:              psutil: 5.9.8
+2024-05-13 22:14:57,124:INFO:          markupsafe: 2.1.5
+2024-05-13 22:14:57,124:INFO:             pickle5: Not installed
+2024-05-13 22:14:57,125:INFO:         cloudpickle: 3.0.0
+2024-05-13 22:14:57,125:INFO:         deprecation: 2.1.0
+2024-05-13 22:14:57,125:INFO:              xxhash: 3.4.1
+2024-05-13 22:14:57,125:INFO:           wurlitzer: Not installed
+2024-05-13 22:14:57,125:INFO:PyCaret optional dependencies:
+2024-05-13 22:14:57,151:INFO:                shap: 0.44.1
+2024-05-13 22:14:57,152:INFO:           interpret: Not installed
+2024-05-13 22:14:57,152:INFO:                umap: Not installed
+2024-05-13 22:14:57,152:INFO:     ydata_profiling: 4.6.1
+2024-05-13 22:14:57,152:INFO:  explainerdashboard: Not installed
+2024-05-13 22:14:57,152:INFO:             autoviz: Not installed
+2024-05-13 22:14:57,152:INFO:           fairlearn: Not installed
+2024-05-13 22:14:57,152:INFO:          deepchecks: Not installed
+2024-05-13 22:14:57,152:INFO:             xgboost: 2.0.3
+2024-05-13 22:14:57,153:INFO:            catboost: 1.2.3
+2024-05-13 22:14:57,153:INFO:              kmodes: Not installed
+2024-05-13 22:14:57,153:INFO:             mlxtend: Not installed
+2024-05-13 22:14:57,153:INFO:       statsforecast: Not installed
+2024-05-13 22:14:57,153:INFO:        tune_sklearn: Not installed
+2024-05-13 22:14:57,153:INFO:                 ray: Not installed
+2024-05-13 22:14:57,153:INFO:            hyperopt: Not installed
+2024-05-13 22:14:57,153:INFO:              optuna: Not installed
+2024-05-13 22:14:57,153:INFO:               skopt: Not installed
+2024-05-13 22:14:57,153:INFO:              mlflow: Not installed
+2024-05-13 22:14:57,153:INFO:              gradio: Not installed
+2024-05-13 22:14:57,153:INFO:             fastapi: Not installed
+2024-05-13 22:14:57,153:INFO:             uvicorn: Not installed
+2024-05-13 22:14:57,153:INFO:              m2cgen: Not installed
+2024-05-13 22:14:57,153:INFO:           evidently: Not installed
+2024-05-13 22:14:57,153:INFO:               fugue: Not installed
+2024-05-13 22:14:57,153:INFO:           streamlit: 1.33.0
+2024-05-13 22:14:57,153:INFO:             prophet: Not installed
+2024-05-13 22:14:57,153:INFO:None
+2024-05-13 22:14:57,154:INFO:Set up data.
+2024-05-13 22:15:02,594:INFO:PyCaret RegressionExperiment
+2024-05-13 22:15:02,594:INFO:Logging name: reg-default-name
+2024-05-13 22:15:02,594:INFO:ML Usecase: MLUsecase.REGRESSION
+2024-05-13 22:15:02,594:INFO:version 3.3.0
+2024-05-13 22:15:02,594:INFO:Initializing setup()
+2024-05-13 22:15:02,594:INFO:self.USI: e992
+2024-05-13 22:15:02,594:INFO:self._variable_keys: {'y', 'html_param', 'seed', 'USI', 'X', 'target_param', 'transform_target_param', 'idx', 'memory', 'y_train', 'exp_id', '_ml_usecase', 'pipeline', 'gpu_param', 'y_test', 'logging_param', 'data', '_available_plots', 'n_jobs_param', 'log_plots_param', 'X_train', 'fold_groups_param', 'exp_name_log', 'fold_generator', 'gpu_n_jobs_param', 'X_test', 'fold_shuffle_param'}
+2024-05-13 22:15:02,594:INFO:Checking environment
+2024-05-13 22:15:02,595:INFO:python_version: 3.11.4
+2024-05-13 22:15:02,595:INFO:python_build: ('tags/v3.11.4:d2340ef', 'Jun  7 2023 05:45:37')
+2024-05-13 22:15:02,595:INFO:machine: AMD64
+2024-05-13 22:15:02,595:INFO:platform: Windows-10-10.0.22631-SP0
+2024-05-13 22:15:02,601:INFO:Memory: svmem(total=16952647680, available=3204304896, percent=81.1, used=13748342784, free=3204304896)
+2024-05-13 22:15:02,601:INFO:Physical Core: 4
+2024-05-13 22:15:02,601:INFO:Logical Core: 8
+2024-05-13 22:15:02,601:INFO:Checking libraries
+2024-05-13 22:15:02,601:INFO:System:
+2024-05-13 22:15:02,601:INFO:    python: 3.11.4 (tags/v3.11.4:d2340ef, Jun  7 2023, 05:45:37) [MSC v.1934 64 bit (AMD64)]
+2024-05-13 22:15:02,601:INFO:executable: c:\Users\Naveen\AppData\Local\Programs\Python\Python311\python.exe
+2024-05-13 22:15:02,602:INFO:   machine: Windows-10-10.0.22631-SP0
+2024-05-13 22:15:02,602:INFO:PyCaret required dependencies:
+2024-05-13 22:15:02,602:INFO:                 pip: 24.0
+2024-05-13 22:15:02,602:INFO:          setuptools: 69.5.1
+2024-05-13 22:15:02,602:INFO:             pycaret: 3.3.0
+2024-05-13 22:15:02,602:INFO:             IPython: 8.12.3
+2024-05-13 22:15:02,602:INFO:          ipywidgets: 8.1.2
+2024-05-13 22:15:02,602:INFO:                tqdm: 4.66.2
+2024-05-13 22:15:02,602:INFO:               numpy: 1.26.4
+2024-05-13 22:15:02,602:INFO:              pandas: 2.1.4
+2024-05-13 22:15:02,602:INFO:              jinja2: 3.1.3
+2024-05-13 22:15:02,602:INFO:               scipy: 1.11.4
+2024-05-13 22:15:02,602:INFO:              joblib: 1.4.0
+2024-05-13 22:15:02,602:INFO:             sklearn: 1.4.2
+2024-05-13 22:15:02,603:INFO:                pyod: 1.1.3
+2024-05-13 22:15:02,603:INFO:            imblearn: 0.12.2
+2024-05-13 22:15:02,603:INFO:   category_encoders: 2.6.3
+2024-05-13 22:15:02,603:INFO:            lightgbm: 4.3.0
+2024-05-13 22:15:02,603:INFO:               numba: 0.59.1
+2024-05-13 22:15:02,603:INFO:            requests: 2.31.0
+2024-05-13 22:15:02,603:INFO:          matplotlib: 3.7.5
+2024-05-13 22:15:02,603:INFO:          scikitplot: 0.3.7
+2024-05-13 22:15:02,603:INFO:         yellowbrick: 1.5
+2024-05-13 22:15:02,603:INFO:              plotly: 5.20.0
+2024-05-13 22:15:02,603:INFO:    plotly-resampler: Not installed
+2024-05-13 22:15:02,603:INFO:             kaleido: 0.2.1
+2024-05-13 22:15:02,603:INFO:           schemdraw: 0.15
+2024-05-13 22:15:02,603:INFO:         statsmodels: 0.14.1
+2024-05-13 22:15:02,603:INFO:              sktime: 0.28.0
+2024-05-13 22:15:02,603:INFO:               tbats: 1.1.3
+2024-05-13 22:15:02,603:INFO:            pmdarima: 2.0.4
+2024-05-13 22:15:02,603:INFO:              psutil: 5.9.8
+2024-05-13 22:15:02,604:INFO:          markupsafe: 2.1.5
+2024-05-13 22:15:02,604:INFO:             pickle5: Not installed
+2024-05-13 22:15:02,604:INFO:         cloudpickle: 3.0.0
+2024-05-13 22:15:02,604:INFO:         deprecation: 2.1.0
+2024-05-13 22:15:02,604:INFO:              xxhash: 3.4.1
+2024-05-13 22:15:02,604:INFO:           wurlitzer: Not installed
+2024-05-13 22:15:02,604:INFO:PyCaret optional dependencies:
+2024-05-13 22:15:02,604:INFO:                shap: 0.44.1
+2024-05-13 22:15:02,604:INFO:           interpret: Not installed
+2024-05-13 22:15:02,604:INFO:                umap: Not installed
+2024-05-13 22:15:02,604:INFO:     ydata_profiling: 4.6.1
+2024-05-13 22:15:02,604:INFO:  explainerdashboard: Not installed
+2024-05-13 22:15:02,604:INFO:             autoviz: Not installed
+2024-05-13 22:15:02,604:INFO:           fairlearn: Not installed
+2024-05-13 22:15:02,604:INFO:          deepchecks: Not installed
+2024-05-13 22:15:02,604:INFO:             xgboost: 2.0.3
+2024-05-13 22:15:02,604:INFO:            catboost: 1.2.3
+2024-05-13 22:15:02,605:INFO:              kmodes: Not installed
+2024-05-13 22:15:02,605:INFO:             mlxtend: Not installed
+2024-05-13 22:15:02,605:INFO:       statsforecast: Not installed
+2024-05-13 22:15:02,605:INFO:        tune_sklearn: Not installed
+2024-05-13 22:15:02,605:INFO:                 ray: Not installed
+2024-05-13 22:15:02,605:INFO:            hyperopt: Not installed
+2024-05-13 22:15:02,605:INFO:              optuna: Not installed
+2024-05-13 22:15:02,605:INFO:               skopt: Not installed
+2024-05-13 22:15:02,605:INFO:              mlflow: Not installed
+2024-05-13 22:15:02,605:INFO:              gradio: Not installed
+2024-05-13 22:15:02,605:INFO:             fastapi: Not installed
+2024-05-13 22:15:02,605:INFO:             uvicorn: Not installed
+2024-05-13 22:15:02,605:INFO:              m2cgen: Not installed
+2024-05-13 22:15:02,605:INFO:           evidently: Not installed
+2024-05-13 22:15:02,605:INFO:               fugue: Not installed
+2024-05-13 22:15:02,606:INFO:           streamlit: 1.33.0
+2024-05-13 22:15:02,606:INFO:             prophet: Not installed
+2024-05-13 22:15:02,606:INFO:None
+2024-05-13 22:15:02,606:INFO:Set up data.
+2024-05-13 22:15:30,634:INFO:PyCaret RegressionExperiment
+2024-05-13 22:15:30,635:INFO:Logging name: reg-default-name
+2024-05-13 22:15:30,635:INFO:ML Usecase: MLUsecase.REGRESSION
+2024-05-13 22:15:30,635:INFO:version 3.3.0
+2024-05-13 22:15:30,635:INFO:Initializing setup()
+2024-05-13 22:15:30,635:INFO:self.USI: e97c
+2024-05-13 22:15:30,635:INFO:self._variable_keys: {'y', 'html_param', 'seed', 'USI', 'X', 'target_param', 'transform_target_param', 'idx', 'memory', 'y_train', 'exp_id', '_ml_usecase', 'pipeline', 'gpu_param', 'y_test', 'logging_param', 'data', '_available_plots', 'n_jobs_param', 'log_plots_param', 'X_train', 'fold_groups_param', 'exp_name_log', 'fold_generator', 'gpu_n_jobs_param', 'X_test', 'fold_shuffle_param'}
+2024-05-13 22:15:30,635:INFO:Checking environment
+2024-05-13 22:15:30,635:INFO:python_version: 3.11.4
+2024-05-13 22:15:30,635:INFO:python_build: ('tags/v3.11.4:d2340ef', 'Jun  7 2023 05:45:37')
+2024-05-13 22:15:30,636:INFO:machine: AMD64
+2024-05-13 22:15:30,636:INFO:platform: Windows-10-10.0.22631-SP0
+2024-05-13 22:15:30,642:INFO:Memory: svmem(total=16952647680, available=3183009792, percent=81.2, used=13769637888, free=3183009792)
+2024-05-13 22:15:30,642:INFO:Physical Core: 4
+2024-05-13 22:15:30,642:INFO:Logical Core: 8
+2024-05-13 22:15:30,642:INFO:Checking libraries
+2024-05-13 22:15:30,642:INFO:System:
+2024-05-13 22:15:30,642:INFO:    python: 3.11.4 (tags/v3.11.4:d2340ef, Jun  7 2023, 05:45:37) [MSC v.1934 64 bit (AMD64)]
+2024-05-13 22:15:30,642:INFO:executable: c:\Users\Naveen\AppData\Local\Programs\Python\Python311\python.exe
+2024-05-13 22:15:30,642:INFO:   machine: Windows-10-10.0.22631-SP0
+2024-05-13 22:15:30,642:INFO:PyCaret required dependencies:
+2024-05-13 22:15:30,642:INFO:                 pip: 24.0
+2024-05-13 22:15:30,642:INFO:          setuptools: 69.5.1
+2024-05-13 22:15:30,642:INFO:             pycaret: 3.3.0
+2024-05-13 22:15:30,642:INFO:             IPython: 8.12.3
+2024-05-13 22:15:30,642:INFO:          ipywidgets: 8.1.2
+2024-05-13 22:15:30,643:INFO:                tqdm: 4.66.2
+2024-05-13 22:15:30,643:INFO:               numpy: 1.26.4
+2024-05-13 22:15:30,643:INFO:              pandas: 2.1.4
+2024-05-13 22:15:30,643:INFO:              jinja2: 3.1.3
+2024-05-13 22:15:30,643:INFO:               scipy: 1.11.4
+2024-05-13 22:15:30,643:INFO:              joblib: 1.4.0
+2024-05-13 22:15:30,643:INFO:             sklearn: 1.4.2
+2024-05-13 22:15:30,643:INFO:                pyod: 1.1.3
+2024-05-13 22:15:30,643:INFO:            imblearn: 0.12.2
+2024-05-13 22:15:30,643:INFO:   category_encoders: 2.6.3
+2024-05-13 22:15:30,643:INFO:            lightgbm: 4.3.0
+2024-05-13 22:15:30,643:INFO:               numba: 0.59.1
+2024-05-13 22:15:30,643:INFO:            requests: 2.31.0
+2024-05-13 22:15:30,643:INFO:          matplotlib: 3.7.5
+2024-05-13 22:15:30,643:INFO:          scikitplot: 0.3.7
+2024-05-13 22:15:30,643:INFO:         yellowbrick: 1.5
+2024-05-13 22:15:30,643:INFO:              plotly: 5.20.0
+2024-05-13 22:15:30,643:INFO:    plotly-resampler: Not installed
+2024-05-13 22:15:30,643:INFO:             kaleido: 0.2.1
+2024-05-13 22:15:30,643:INFO:           schemdraw: 0.15
+2024-05-13 22:15:30,643:INFO:         statsmodels: 0.14.1
+2024-05-13 22:15:30,643:INFO:              sktime: 0.28.0
+2024-05-13 22:15:30,643:INFO:               tbats: 1.1.3
+2024-05-13 22:15:30,643:INFO:            pmdarima: 2.0.4
+2024-05-13 22:15:30,643:INFO:              psutil: 5.9.8
+2024-05-13 22:15:30,643:INFO:          markupsafe: 2.1.5
+2024-05-13 22:15:30,643:INFO:             pickle5: Not installed
+2024-05-13 22:15:30,643:INFO:         cloudpickle: 3.0.0
+2024-05-13 22:15:30,644:INFO:         deprecation: 2.1.0
+2024-05-13 22:15:30,644:INFO:              xxhash: 3.4.1
+2024-05-13 22:15:30,644:INFO:           wurlitzer: Not installed
+2024-05-13 22:15:30,644:INFO:PyCaret optional dependencies:
+2024-05-13 22:15:30,644:INFO:                shap: 0.44.1
+2024-05-13 22:15:30,644:INFO:           interpret: Not installed
+2024-05-13 22:15:30,644:INFO:                umap: Not installed
+2024-05-13 22:15:30,644:INFO:     ydata_profiling: 4.6.1
+2024-05-13 22:15:30,644:INFO:  explainerdashboard: Not installed
+2024-05-13 22:15:30,644:INFO:             autoviz: Not installed
+2024-05-13 22:15:30,644:INFO:           fairlearn: Not installed
+2024-05-13 22:15:30,644:INFO:          deepchecks: Not installed
+2024-05-13 22:15:30,644:INFO:             xgboost: 2.0.3
+2024-05-13 22:15:30,644:INFO:            catboost: 1.2.3
+2024-05-13 22:15:30,644:INFO:              kmodes: Not installed
+2024-05-13 22:15:30,644:INFO:             mlxtend: Not installed
+2024-05-13 22:15:30,644:INFO:       statsforecast: Not installed
+2024-05-13 22:15:30,644:INFO:        tune_sklearn: Not installed
+2024-05-13 22:15:30,644:INFO:                 ray: Not installed
+2024-05-13 22:15:30,644:INFO:            hyperopt: Not installed
+2024-05-13 22:15:30,644:INFO:              optuna: Not installed
+2024-05-13 22:15:30,644:INFO:               skopt: Not installed
+2024-05-13 22:15:30,644:INFO:              mlflow: Not installed
+2024-05-13 22:15:30,644:INFO:              gradio: Not installed
+2024-05-13 22:15:30,644:INFO:             fastapi: Not installed
+2024-05-13 22:15:30,644:INFO:             uvicorn: Not installed
+2024-05-13 22:15:30,644:INFO:              m2cgen: Not installed
+2024-05-13 22:15:30,645:INFO:           evidently: Not installed
+2024-05-13 22:15:30,645:INFO:               fugue: Not installed
+2024-05-13 22:15:30,645:INFO:           streamlit: 1.33.0
+2024-05-13 22:15:30,645:INFO:             prophet: Not installed
+2024-05-13 22:15:30,645:INFO:None
+2024-05-13 22:15:30,645:INFO:Set up data.
+2024-05-13 22:15:30,693:INFO:Set up folding strategy.
+2024-05-13 22:15:30,694:INFO:Set up train/test split.
+2024-05-13 22:15:30,779:INFO:Set up index.
+2024-05-13 22:15:30,783:INFO:Assigning column types.
+2024-05-13 22:15:30,828:INFO:Engine successfully changes for model 'lr' to 'sklearn'.
+2024-05-13 22:15:30,828:INFO:Engine for model 'lasso' has not been set explicitly, hence returning None.
+2024-05-13 22:15:30,834:INFO:Engine for model 'ridge' has not been set explicitly, hence returning None.
+2024-05-13 22:15:30,838:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2024-05-13 22:15:30,984:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2024-05-13 22:15:31,038:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2024-05-13 22:15:31,038:INFO:Soft dependency imported: xgboost: 2.0.3
+2024-05-13 22:15:31,041:INFO:Soft dependency imported: catboost: 1.2.3
+2024-05-13 22:15:32,277:INFO:Engine for model 'lasso' has not been set explicitly, hence returning None.
+2024-05-13 22:15:32,290:INFO:Engine for model 'ridge' has not been set explicitly, hence returning None.
+2024-05-13 22:15:32,305:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2024-05-13 22:15:32,489:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2024-05-13 22:15:32,636:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2024-05-13 22:15:32,637:INFO:Soft dependency imported: xgboost: 2.0.3
+2024-05-13 22:15:32,646:INFO:Soft dependency imported: catboost: 1.2.3
+2024-05-13 22:15:32,647:INFO:Engine successfully changes for model 'lasso' to 'sklearn'.
+2024-05-13 22:15:32,659:INFO:Engine for model 'ridge' has not been set explicitly, hence returning None.
+2024-05-13 22:15:32,671:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2024-05-13 22:15:32,899:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2024-05-13 22:15:33,050:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2024-05-13 22:15:33,052:INFO:Soft dependency imported: xgboost: 2.0.3
+2024-05-13 22:15:33,063:INFO:Soft dependency imported: catboost: 1.2.3
+2024-05-13 22:15:33,082:INFO:Engine for model 'ridge' has not been set explicitly, hence returning None.
+2024-05-13 22:15:33,099:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2024-05-13 22:15:33,240:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2024-05-13 22:15:33,285:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2024-05-13 22:15:33,285:INFO:Soft dependency imported: xgboost: 2.0.3
+2024-05-13 22:15:33,288:INFO:Soft dependency imported: catboost: 1.2.3
+2024-05-13 22:15:33,288:INFO:Engine successfully changes for model 'ridge' to 'sklearn'.
+2024-05-13 22:15:33,306:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2024-05-13 22:15:33,435:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2024-05-13 22:15:33,482:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2024-05-13 22:15:33,482:INFO:Soft dependency imported: xgboost: 2.0.3
+2024-05-13 22:15:33,485:INFO:Soft dependency imported: catboost: 1.2.3
+2024-05-13 22:15:33,494:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2024-05-13 22:15:33,606:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2024-05-13 22:15:33,666:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2024-05-13 22:15:33,667:INFO:Soft dependency imported: xgboost: 2.0.3
+2024-05-13 22:15:33,671:INFO:Soft dependency imported: catboost: 1.2.3
+2024-05-13 22:15:33,672:INFO:Engine successfully changes for model 'en' to 'sklearn'.
+2024-05-13 22:15:33,825:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2024-05-13 22:15:33,882:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2024-05-13 22:15:33,883:INFO:Soft dependency imported: xgboost: 2.0.3
+2024-05-13 22:15:33,885:INFO:Soft dependency imported: catboost: 1.2.3
+2024-05-13 22:15:34,002:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2024-05-13 22:15:34,047:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2024-05-13 22:15:34,048:INFO:Soft dependency imported: xgboost: 2.0.3
+2024-05-13 22:15:34,050:INFO:Soft dependency imported: catboost: 1.2.3
+2024-05-13 22:15:34,051:INFO:Engine successfully changes for model 'knn' to 'sklearn'.
+2024-05-13 22:15:34,165:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2024-05-13 22:15:34,213:INFO:Soft dependency imported: xgboost: 2.0.3
+2024-05-13 22:15:34,215:INFO:Soft dependency imported: catboost: 1.2.3
+2024-05-13 22:15:34,337:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2024-05-13 22:15:34,391:INFO:Soft dependency imported: xgboost: 2.0.3
+2024-05-13 22:15:34,394:INFO:Soft dependency imported: catboost: 1.2.3
+2024-05-13 22:15:34,395:INFO:Engine successfully changes for model 'svm' to 'sklearn'.
+2024-05-13 22:15:34,570:INFO:Soft dependency imported: xgboost: 2.0.3
+2024-05-13 22:15:34,573:INFO:Soft dependency imported: catboost: 1.2.3
+2024-05-13 22:15:34,867:INFO:Soft dependency imported: xgboost: 2.0.3
+2024-05-13 22:15:34,872:INFO:Soft dependency imported: catboost: 1.2.3
+2024-05-13 22:15:34,878:INFO:Preparing preprocessing pipeline...
+2024-05-13 22:15:34,879:INFO:Set up simple imputation.
